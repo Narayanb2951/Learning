@@ -7,4 +7,5 @@ export default function () {
   sleep(5);
 
   http.get('https://test.k6.io/contacts.php');
+  http.get('https://test.k6.io/news.php');
 }
