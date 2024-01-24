@@ -5,4 +5,6 @@ export default function () {
   http.get('https://test.k6.io');
   sleep(1);
   sleep(5);
+
+  http.get('https://test.k6.io/contacts.php');
 }
